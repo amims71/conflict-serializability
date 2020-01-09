@@ -69,6 +69,6 @@ for i in range(len(septList)):
 print(paths)
 
 if g.isCyclic() == 1:
-    print("Graph has a cycle")
+    print("It has a cycle, so it is not conflict serializable.")
 else:
-    print("Graph has no cycle")
+    print("It has no cycle, so it is conflict serializable.")
